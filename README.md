@@ -1,9 +1,11 @@
+<p align="center">
+    <img src="https://em-content.zobj.net/source/apple/391/ewe_1f411.png" width="120" />
+  </p>
 
-
-<h1 align="center">gopeep</h1>
+<h1 align="center">gopeep 𓋾</h1>
 
 <p align="center">
-  <strong>nothing to see here</strong>
+  <strong>vertical integration helper</strong>
 </p>
 
 <p align="center">
