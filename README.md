@@ -1,6 +1,6 @@
 <p align="center">
-    <img src="https://em-content.zobj.net/source/apple/391/ewe_1f411.png" width="120" />
-  </p>
+  <img src="https://em-content.zobj.net/source/apple/391/ewe_1f411.png" width="120" />
+</p>
 
 <h1 align="center">gopeep 𓋾</h1>
 
@@ -82,7 +82,7 @@ Both skills produce a `00-customization.md` — a human-editable file that overr
 
 | Agent | Install |
 |-------|---------|
-| **Claude Code** | `claude plugin marketplace add d-aston/gopeep && claude plugin install gopeep@gopeep-repo` |
+| **Claude Code** | `npx skills add d-aston/gopeep -a claude-code` |
 | **Cursor** | `npx skills add d-aston/gopeep -a cursor` |
 | **Windsurf** | `npx skills add d-aston/gopeep -a windsurf` |
 | **Copilot** | `npx skills add d-aston/gopeep -a github-copilot` |
@@ -107,7 +107,7 @@ Full analysis of a local repo. Produces `gopeep-spec/` with all 6 phase files an
 
 ```bash
 /gopeep-repo ./my-project --depth quick     # recon + deps only, fast overview
-/gopeep-repo ./my-project --depth standard  # phases 1-5, skip reproduction blueprint
+/gopeep-repo ./my-project --depth standard  # phases 1-5, omits phase 6 (reproduction blueprint)
 ```
 
 When to use: Before handing a project to an agent to recreate or migrate.

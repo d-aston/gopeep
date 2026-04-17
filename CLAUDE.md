@@ -17,7 +17,7 @@ Gopeep is two agent skills — `gopeep-repo` and `gopeep-web` — that analyze c
 
 ### Auto-synced — do not edit directly
 
-Overwritten when sources change.
+Overwritten by `.github/workflows/sync-skills.yml` on push to main when either `skills/` SKILL.md changes. Edits here will be overwritten.
 
 | File | Synced from |
 |------|-------------|

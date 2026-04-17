@@ -1,0 +1,35 @@
+name: Sync skill files to agent-specific locations
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'skills/gopeep-repo/SKILL.md'
+      - 'skills/gopeep-web/SKILL.md'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Sync gopeep-repo skill
+        run: |
+          cp skills/gopeep-repo/SKILL.md .cursor/skills/gopeep-repo/SKILL.md
+          cp skills/gopeep-repo/SKILL.md .windsurf/skills/gopeep-repo/SKILL.md
+
+      - name: Sync gopeep-web skill
+        run: |
+          cp skills/gopeep-web/SKILL.md .cursor/skills/gopeep-web/SKILL.md
+          cp skills/gopeep-web/SKILL.md .windsurf/skills/gopeep-web/SKILL.md
+
+      - name: Commit synced files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .cursor/skills .windsurf/skills
+          git diff --cached --quiet || git commit -m "chore: sync skill files to agent locations [skip ci]"
+          git push

@@ -31,7 +31,7 @@ Default depth: `full`. Default output: `./gopeep-spec/`
 
 ## Execution Order
 
-Run phases 1-6 first to gather all data. Generate `00-customization.md` last, pulling editable values from all phases. Write each file before starting the next. Checkpoint after each phase — if interrupted, resume from last completed.
+Run phases 1-6 first to gather all data. Generate `00-customization.md` last, pulling editable values from all phases. Write each file before starting the next. Checkpoint after each phase — if interrupted, check which output files already exist in `gopeep-spec/` and resume from the first missing phase.
 
 ---
 
@@ -213,7 +213,9 @@ Synthesize phases 1-5 into an ordered build plan:
 
 ---
 
-## Phase 7 (Final): Human Customization File → `00-customization.md`
+## Final Step (after Phase 6): Human Customization File → `00-customization.md`
+
+> This step does not produce a numbered phase file. Output is always `00-customization.md`.
 
 **Generate this file last.** Pull editable values from all prior phases. Write it to be readable without technical background.
 

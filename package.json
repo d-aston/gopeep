@@ -16,7 +16,7 @@
     "type": "git",
     "url": "https://github.com/d-aston/gopeep.git"
   },
-  "license": "MIT",
+  "license": "Apache-2.0",
   "skills": [
     "skills/gopeep-repo",
     "skills/gopeep-web"
