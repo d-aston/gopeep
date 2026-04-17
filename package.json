@@ -1,0 +1,24 @@
+{
+  "name": "@trustedmethods/gopeep",
+  "version": "1.0.0",
+  "description": "Agent skills for architecture extraction and frontend reverse-engineering. Analyze any repo or website and produce structured specs with a human-editable customization file.",
+  "keywords": [
+    "claude-code",
+    "claude-code-skill",
+    "agent-skill",
+    "architecture",
+    "reverse-engineering",
+    "specification",
+    "codebase-analysis"
+  ],
+  "homepage": "https://github.com/trustedmethods/gopeep",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trustedmethods/gopeep.git"
+  },
+  "license": "MIT",
+  "skills": [
+    "skills/gopeep-repo",
+    "skills/gopeep-web"
+  ]
+}
