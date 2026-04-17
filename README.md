@@ -35,16 +35,16 @@ Pick your agent. One command.
 
 | Agent | Install |
 |-------|---------|
-| **Claude Code** | `claude plugin marketplace add trustedmethods/gopeep && claude plugin install gopeep@gopeep-repo` |
-| **Cursor** | `npx skills add trustedmethods/gopeep -a cursor` |
-| **Windsurf** | `npx skills add trustedmethods/gopeep -a windsurf` |
-| **Copilot** | `npx skills add trustedmethods/gopeep -a github-copilot` |
-| **Cline** | `npx skills add trustedmethods/gopeep -a cline` |
-| **Any other** | `npx skills add trustedmethods/gopeep` |
+| **Claude Code** | `claude plugin marketplace add Dom-Aston/gopeep && claude plugin install gopeep@gopeep-repo` |
+| **Cursor** | `npx skills add Dom-Aston/gopeep -a cursor` |
+| **Windsurf** | `npx skills add Dom-Aston/gopeep -a windsurf` |
+| **Copilot** | `npx skills add Dom-Aston/gopeep -a github-copilot` |
+| **Cline** | `npx skills add Dom-Aston/gopeep -a cline` |
+| **Any other** | `npx skills add Dom-Aston/gopeep` |
 
 Uninstall: `npx skills remove gopeep`
 
-> **Windows note:** `npx skills` uses symlinks by default. If symlinks fail, add `--copy`: `npx skills add trustedmethods/gopeep --copy`
+> **Windows note:** `npx skills` uses symlinks by default. If symlinks fail, add `--copy`: `npx skills add Dom-Aston/gopeep --copy`
 
 ---
 
