@@ -11,10 +11,10 @@
     "specification",
     "codebase-analysis"
   ],
-  "homepage": "https://github.com/Dom-Aston/gopeep",
+  "homepage": "https://github.com/d-aston/gopeep",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Dom-Aston/gopeep.git"
+    "url": "https://github.com/d-aston/gopeep.git"
   },
   "license": "MIT",
   "skills": [
