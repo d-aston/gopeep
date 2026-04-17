@@ -1,7 +1,15 @@
+
+
 <h1 align="center">gopeep</h1>
 
 <p align="center">
-  <strong>extract architecture. customize it. hand it to an agent. done.</strong>
+  <strong>nothing to see here</strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/d-aston/gopeep/stargazers"><img src="https://img.shields.io/github/stars/JuliusBrussee/gopeep?style=flat&color=yellow" alt="Stars"></a>
+  <a href="https://github.com/JuliusBrussee/gopeep/commits/main"><img src="https://img.shields.io/github/last-commit/JuliusBrussee/gopeep?style=flat" alt="Last Commit"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/JuliusBrussee/gopeep?style=flat" alt="License"></a>
 </p>
 
 <p align="center">
@@ -171,4 +179,4 @@ Gopeep output is successful when:
 
 ## License
 
-MIT
+Apache 2.0. See [LICENSE](LICENSE).
